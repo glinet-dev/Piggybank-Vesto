@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+.aside-component {
+    background-color: $background-color-primary;
+    padding: $spacing-medium;
+    height: auto;
+    width: 30vh;
+    border-radius: 10px;
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 30%;
+            border-radius: 50%;
+        }
+
+
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            padding: $spacing-small;
+            font-size: 0.7rem;
+            font-weight: lighter;
+
+            a {
+                text-decoration: none;
+                color: $secondary-color;
+            }
+        }
+    }
+
+    .aside-button {
+        background-color: $ternary-color;
+        color: $text-color;
+        padding: $spacing-small;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: $spacing-medium;
+        width: 100%;
+    }
+}
