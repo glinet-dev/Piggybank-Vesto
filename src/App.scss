@@ -1,4 +1,9 @@
 @import './styles/variables.scss';
+@import "tailwindcss";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
+
+
 
 body {
   max-width: 100vw;
@@ -14,8 +19,14 @@ aside {
   background-color: $background-color-primary;
   padding: $spacing-medium;
   // height: 72.5vh;
-  width: 20vh;
+}
 
+.main-wrap {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  width: 100%;
+  height: 100vh;
 }
 
 footer {

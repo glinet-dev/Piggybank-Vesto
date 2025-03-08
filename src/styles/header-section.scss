@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+.header-section-wrap {
+    width: inherit;
+
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: $background-color-primary;
+    height: 2rem;
+    width: 90%;
+    /* Dark background */
+    border: none;
+    /* Stylish bottom border */
+    color: white;
+    margin: 0.2rem 1rem;
+    border-radius: 10px;
+}
+
+.header-section a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.header-section a:hover {
+    color: red;
+    /* Hover effect */
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
