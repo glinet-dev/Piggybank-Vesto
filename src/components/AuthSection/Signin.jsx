@@ -17,10 +17,14 @@ const Signin = () => {
     return (
         <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
             <div className="auth-signup-wrap">
-                <h2>Signin</h2>
+                
                 <LogoImg/>
+                <p>Piggybank Vesto</p>
+                <p>Sigin</p>
                 <input type='email'/><br/>
                 <input type='password'/><br/>
+                <input type='submit' value="Sign In"/><br/>
+
                 <p>or</p>
                 <GoogleLogin
                     onSuccess={handleLoginSuccess}

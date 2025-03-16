@@ -17,7 +17,7 @@ function App() {
       </div> */}
       <div className='auth-wrap'>
         <Signin/>
-        <Signup/>
+        {/* <Signup/> */}
       </div>
 
       </main>

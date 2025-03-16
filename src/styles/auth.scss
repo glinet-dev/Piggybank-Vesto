@@ -1,6 +1,40 @@
 @import './variables.scss';
 
+.auth-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .auth-signup-wrap {
-    border: 1px solid red;
+
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+
+        background-color: $background-color-primary;
+        color: white;
+        border: 1px solid white;
+        width: inherit;
+
+    }
+
+    input[type="submit"] {
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 5px;
+        width: inherit;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 5rem;
+    }
 
 }
